@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_center_div{
+    width: 79%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.main_tv_categories{
+    display: flex;
+    justify-content: center;
+    padding: 0 16px;
+}
+
+.tv_audio{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.tv_container{
+    width: 202px;
+    height: 202px;
+    border-radius: 18px;
+    background-color: #f2eefb;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tv_container p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.tv_container img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    height: 120px;
+    width: 120px;
+}
+
+.tv_audio_bottom{
+    margin-top: 20px;
+}
+
+/* navigadion div */
+
+.navigation_div ul{
+    list-style: none;
+    margin: 0;
+    border: 1px solid #dcdcdc99;
+    padding: 16px 8px 16px 16px;
+    margin-right: 20px;
+    border-radius: 18px;
+}
+
+.navigation_div ul h5{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 8px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.navigation_div ul p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-right: 8px;
+}
+
+.navigation_div ul p:hover{
+    cursor: pointer;
+    color: #8d6cd5;
+}
+
+.navigation_div h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-block: 0px 16px;
+    margin: 0;
+}
+
+.navigation_paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    overflow: hidden;
+    height: 0;
+}
+
+#tv_dawn:checked ~ .navigation_paragraph{
+    height: 165px;
+    overflow: visible;
+    transition: 0.3s ease-in-out;
+}
+
+#tv_dawn:checked + .tv_drop_dawn .fa-solid{
+    rotate: 180deg;
+    transition: 0.3s ease-in-out;
+}
+
+#tv_dawn{
+    display: none;
+}
+
+.tv_drop_dawn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tv_drop_dawn i{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* categories */
+
+.categories_div h1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #181d27;
+}
+
+.tv_audio{
+    margin-top: 16px;
+}
+
+.tv_container{
+    transition: 0.4s;
+}
+
+.tv_container:hover{
+    transform: scale(1.015);
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 0px #8d6cd5;
+}
+
+
+/* footer */
+
+footer{
+    margin-top: 105px;
+}
