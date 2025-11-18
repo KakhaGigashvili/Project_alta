@@ -150,9 +150,37 @@
     box-shadow: 1px 1px 2px 0px #8d6cd5;
 }
 
+.categories_div_responsive{
+    display: none;
+}
 
 /* footer */
 
 footer{
     margin-top: 105px;
+}
+
+@media screen and (max-width:1025px){
+    .navigation_div{
+        display: none;
+    }
+
+    .categories_div{
+        display: none;
+    }
+
+
+    .categories_div_responsive{
+        margin-top: 50px;
+        display: block;
+    }
+
+    .tv_audio{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .categories_div_responsive h1{
+        font-size: 14px;
+    }
 }
