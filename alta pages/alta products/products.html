@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../alta_style.css">
+    <link rel="stylesheet" href="./products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="main_header_container">
+            <div class="header_container">
+                <div class="center_header">
+                    <div class="burger_responsive">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <a href="../../alta.html">
+                    <img src="https://alta.ge/images/logo.svg" alt="alta logo">
+                    </a>
+                    <div class="categories">
+                        <button>
+                            <i class="fa-solid fa-bars"></i>
+                            კატეგორიები
+                        </button>
+                        <div class="drop_dawn_categories">
+                            <div class="hidden_div"></div>
+                            <ul>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2Faf9ddfa6-f2b4-47c0-90b5-3beb941e359f4dab6370-253e-44c9-a284-904bf567c006.png&w=1920&q=75" alt="phone">მობილური ტელეფონები და აქსესუარები</li>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F0200aaa7-1022-426c-8fa4-99ac90e696d9c8e60e41-cb64-415d-ac7c-410eb301af11.png&w=1920&q=75" alt="laptop">კომპიუტერული ტექნიკა და აქსესუარები</li>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F53002bcd-9e09-43df-904d-6a93dc461b9208997ee7-b3dc-4c09-a122-168704ddc818.png&w=1920&q=75" alt="tv">ტელევიზორები და აუდიო სისტემები</li>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F381b2b36-b8d2-47dd-a0cc-b7143247714e64de4278-3b69-425e-8ef5-7b9818d33683.png&w=1920&q=75" alt="gaming">გეიმინგი</li>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2Fe3c6c645-dfb6-4f62-ade7-748ad23ced9dfad2623e-8f09-4722-9e05-4ab7f72ce26f.png&w=1920&q=75" alt="vid">ფოტო და ვიდეო</li>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2Fa7c1c0df-b99b-4c04-a1b9-a5f98a7fde54ac9dd154-10bc-4503-985a-b11ccc627136.png&w=1920&q=75" alt="wash">მსხვილი საყოფაცხოვრებო ტექნიკა</li>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F1d975f71-eda7-4e3b-921e-6113016750f5bf3f68da-e773-4067-8559-8478f08d4aca.png&w=1920&q=75" alt="equipment">წვრილი საოჯახო ტექნიკა</li>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2Fadd3093f-e9ba-480f-b35e-1dccb56d6f7d7ba9c779-bcc6-4328-b380-add955cda1f7.png&w=1920&q=75" alt="garden">სახლის და ეზოს მოვლა</li>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F8280594c-fc31-43d0-af7d-c420c2446b8e0a844b9c-1235-4596-9448-f2ed3c980670.png&w=1920&q=75" alt="fen">თავის მოვლა</li>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F518d6516-998c-4b32-92c9-d0ebe59bd1f4f4c9b39e-c837-4376-9213-a9fe0d27031e.png&w=1920&q=75" alt="smart house">ჭკვიანი სახლი</li>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F388c14c7-9d60-4fc9-a89b-2560bfe82c854f3679c3-247a-4275-a8b8-58ad810827ee.png&w=1920&q=75" alt="children">მშობელი და ბავშვი</li>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F3b4606e0-dec8-4e62-845c-a9055a5f8717d7e7f53e-8a94-40f2-b97f-3dc1769c5370.png&w=1920&q=75" alt="car">მანქანის ხელსაწყოები და აქსესუარები</li>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Fimgstore.alta.ge%2Fimages%2Fcef44bfb-f488-4db1-9d11-d7b4b3f1047569d43e69-2632-46e7-bd78-320fbed98f17.png&w=1920&q=75" alt="transport">ელექტრო ტრანსპორტი</li>
+                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F46a1280d-da70-4d53-94a4-e942f9832e0f781b0d04-1152-4af8-a233-dde3ba0989a7.png&w=1920&q=75" alt="servises">სერვისები</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="search_container">
+                        <input type="search" placeholder="რას ეძებ?...">
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRVbrg5VzvyUNcoQFUaBwXDH8ZVOSbtWYaB0z3zvlOqsZZ9C8Pi" alt="search icon">
+                    </div>
+
+                    <div class="two_image_container">
+                        <div class="cart">
+                            <img src="https://alta.ge/icons/cart-header.svg" class="cartfav" alt="cart icon">
+                            <div class="hidden_cart_div"></div>
+                            <div class="drop_dawn_cart">
+                                <div>
+                                    <p><b>კალათა ცარიელია</b></p>
+                                    <p class="paragraph_cart">შესაძენად, დაამატე ნივთები კალათაში</p>
+                                    <div>
+                                        <img src="https://alta.ge/icons/empty-cart.svg" alt="empty cart">
+                                    </div>
+                                    <button>გადადი კალათაში</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart">
+                            <img src="https://alta.ge/icons/wishlist-header.svg" class="cartfav" alt="fav icon">
+                            <div class="hidden_cart_div"></div>
+                            <div class="drop_dawn_cart">
+                                <div>
+                                    <p><b>სურვილების სია ცარიელია</b></p>
+                                    <p class="paragraph_cart">შესაძენად, დაამატე ნივთები კალათაში</p>
+                                    <div>
+                                        <img src="https://alta.ge/icons/empty-wishlist.svg" alt="empty cart">
+                                    </div>
+                                    <button>გნახე სურვილების სია</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sign_in_container">
+                        <div>
+                            <i class="fa-regular fa-circle-user"></i>
+                            შესვლა
+                        </div>
+                    </div>
+
+                    <div class="lang_and_search">
+                    <div class="language_container">
+                        <div class="drop_dawn_GE">
+                            <strong>GE</strong>
+                            <div class="hidden_GE_div"></div>
+                            <div class="drop_dawn_EN">
+                                <strong>EN</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="responsive_search_icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom_header_responsive">
+            <div class="b_responsive_fixed">
+                    <div class="b_responsive_center">
+
+                        <div class="b_menu">
+                            <a href="/alta.html">
+                                <i class="fa-solid fa-house"></i>
+                                <p>მთავარი</p>
+                            </a>
+                        </div>
+
+                        <div class="b_menu">
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>კალათა</p>
+                            </a>
+                        </div>
+
+                        <div class="b_menu">
+                            <a href="#">
+                                <i class="fa-solid fa-percent"></i>
+                                <p>აქციები</p>
+                            </a>
+                        </div>
+
+                        <div class="b_menu">
+                            <a href="#">
+                                <i class="fa-regular fa-heart"></i>
+                                <p>შენახული</p>
+                            </a>
+                        </div>
+
+                        <div class="b_menu">
+                            <a href="#">
+                                <i class="fa-solid fa-circle-user"></i>
+                                <p>შესვლა</p>
+                            </a>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+
+        <div class="bottom_header">
+            <div class="bottom_center_header">
+                <div class="left_bottom_container"><strong> <i class="fa-solid fa-phone-volume"></i> *3838/(032) 238-00-38</strong></div>
+                    <div class="right_bottom_container">
+                        <div>ბლოგი</div>
+                        <div>მაღაზიები</div>
+                        <div>ყველა აქცია</div>
+                    </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="main_product_container">
+        <div class="product_categories">
+            <p>მთავარი გვერდი <i class="fa-solid fa-angle-right"></i> მსხვილი საყოფაცხოვრებო ტექნიკა <i class="fa-solid fa-angle-right"></i> მაცივარი</p>
+            <p>კოდი: 169324</p>
+        </div>
+
+        <div class="product_main">
+                <div class="prodact_nav">
+                <span class="main_span">ძირითადი
+                    <div class="line"></div>
+                </span>
+                <span>მსგავსი</span>
+            </div>
+            
+        </div>    
+        
+        <div class="product_imgs">
+   
+                <span class="left_imgs">
+                <div class="product_fav">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                    <img src="https://alta.ge/_next/image?url=https%3A%2F%2Fimgstore.alta.ge%2Fimages%2F5fd9e1ae-81bf-40b9-b19d-69be044ac8c1_Thumb.jpeg&w=1920&q=100" class="bordered" alt="beko small">
+                    <img src="https://alta.ge/_next/image?url=https%3A%2F%2Fimgstore.alta.ge%2Fimages%2Fe9166aca-0f2d-4ca8-8420-1144daf55d53_Thumb.jpeg&w=1920&q=100" alt="beko open">
+                </span>
+
+                <div class="center_img">
+                    <img alt="gift badge" class="sale" src="https://imgstore.alta.ge/images/sale_icon.svg">
+                    <img src="https://alta.ge/_next/image?url=https%3A%2F%2Fimgstore.alta.ge%2Fimages%2F5fd9e1ae-81bf-40b9-b19d-69be044ac8c1_Thumb.jpeg&w=1920&q=100" alt="beko">
+                </div>
+
+                <div class="product_detal_head">
+                    <h4>Beko B1RCSK272W</h4>
+                    <div class="product_detal">
+
+                        <div class="top_detal">
+                            <div>
+                                <p>ბრენდი:</p>
+                                <p>beko</p>
+                            </div>
+
+                            <div>
+                                <p>მოდელი/PN:</p>
+                                <p>B1RCSK272W</p>
+                            </div>
+
+                            <div>
+                                <p>ტიპი:</p>
+                                <p>კომბინირებული მაცივარი-საყინულე</p>
+                            </div>
+                        </div>
+
+                        <div class="product_price">
+                            <div class="price_product">
+                                <div>
+                                    <p><strong>929₾</strong></p>
+                                    <p><strong>1199₾</strong></p>
+                                </div>
+                                <button>ყიდვა</button>
+                            </div>
+
+                            <div class="bottom_button">
+                                <button> <i class="fa-solid fa-cart-shopping"></i> დამატება</button>
+                                <button> <i class="fa-solid fa-left-right"></i> შედარება</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+                    
+            <div class="right_fix">
+            <div>
+                <i class="fa-solid fa-left-right"></i>
+            </div>
+
+            <div>
+                <i class="fa-regular fa-comment"></i>
+            </div>
+        </div>
+
+        <input type="checkbox" id="detals">
+        <div class="more_detals">
+            <h4>დამატებითი მახასიათებლები</h4>
+            <div class="more_detals_list"> 
+                <div class="left_stats">
+                    <h5>ზოგადი ინფორმაცია</h5>
+
+                    <div class="stats">
+                        <p>ბრენდი:</p>
+                        <p>Beko</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>მოდელი/PN:</p>
+                        <p>B1RCSK272W</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>ტიპი:</p>
+                        <p>კომბინირებული მაცივარი-საყინულე</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>კონსტრუქციის ტიპი:</p>
+                        <p>ცალკე მდგომი</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>ტემპერატურის კონტროლი:</p>
+                        <p>N/A</p>
+                    </div>
+
+                    <h5>მაცივრის მახასიათებლები</h5>
+
+                    <div class="stats">
+                        <p>კამერების რაოდენობა:</p>
+                        <p>2</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>ენერგო-ეფექტურობის კოეფიციენტი:</p>
+                        <p>A+</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>შიდა ნათება:</p>
+                        <p>დიახ</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>კარების რაოდენობა:</p>
+                        <p>2</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>კლიმატის კლასი:</p>
+                        <p>SN-ST</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>კარის გადატანის შესაძლებლობა:</p>
+                        <p>დიახ</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>თაროს რაოდენობა:</p>
+                        <p>3</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>თაროების მასალა:</p>
+                        <p>მინა</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>კარის სათავსო:</p>
+                        <p>3</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>ბოსტნეულის კალათების რაოდენობა:</p>
+                        <p>1</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>კვერცხის კონტეინერი:</p>
+                        <p>დიახ</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>ეკო ტექნოლოგია:</p>
+                        <p>N/A</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>მაცივრის ხმაურის დონე:</p>
+                        <p>39 dB</p>
+                    </div>
+                
+                    <h5>საყინულის მახასიათებლები</h5>
+
+                    <div class="stats">
+                        <p>საყინულის მდებარეობა:</p>
+                        <p>ქვედა</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>მშრალი ყინვა:</p>
+                        <p>არა</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>ყინულის ლღვობის სისტემა:</p>
+                        <p>ნახევრად მშრალი</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>უჯრის რაოდენობა:</p>
+                        <p>3</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>სწრაფი ყინვა:</p>
+                        <p>დიახ</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>ხმოვანი სიგნალი:</p>
+                        <p>N/A</p>
+                    </div>
+                
+                </div>
+
+                <div class="center_stats">
+
+                    <h5>სიმძლავრე</h5>
+
+                    <div class="stats">
+                        <p>ენერგიის მოხმარება ერთ წლის განმავლობაში:</p>
+                        <p>257 kw/h</p>
+                    </div>
+
+                    <h5>ტევადობა/მოცულობა</h5>
+
+                    <div class="stats">
+                        <p>ჯამური მოცულობა:</p>
+                        <p>270 L</p>
+                    </div>
+
+                    <div class="stats">
+                        <p>სამაცივრე განყოფილების ნეტტო მოცულობა:</p>
+                        <p>175 L</p>
+                    </div>
+                    
+                    <div class="stats">
+                        <p>საყინულის სათავსოს ტევადობა:</p>
+                        <p>87 L</p>
+                    </div>
+
+                    <h5>ზომები</h5>
+
+                    <div class="stats">
+                        <p>ზომები (სიმაღლე x სიგანე x სიღრმე):</p>
+                        <p>171 x 54 x 60 cm</p>
+                    </div>
+
+                </div>
+
+                <div class="right_stats">
+
+                    <h5>წონა</h5>
+
+                    <div class="stats">
+                        <p>წონა:</p>
+                        <p>52 კგ</p>
+                    </div>
+
+                    <h5>ფერი</h5>
+
+                    <div class="stats">
+                        <p>ფერი:</p>
+                        <p>თეთრი</p>
+                    </div>
+
+                    <h5>გარანტია</h5>
+
+                    <div class="stats">
+                        <p>გარანტია ფიზიკური პირისთვის:</p>
+                        <p>48 თვე</p>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="detals_list_button">
+            <label for="detals" class="more_button">
+                 <i class="fa-solid fa-angle-down"></i>
+            </label>
+        </div>
+    
+    </div> <!-- main -->
+
+    
+    <footer>
+            
+            <div class="footer_contnet">
+                
+                <ul>
+                    <li class="footer_title">ჩვენ შესახებ</li>
+                    <li class="footer_component">ვინ ვართ ჩვენ</li>
+                    <li class="footer_component">ონლაინ ყიდვის ინსტრუქცია</li>
+                    <li class="footer_component">ონლაინ გადახდის მეთოდები</li>
+                    <li class="footer_component">სერვის ცენტრების მისამართები</li>
+                </ul>
+                
+                <ul>
+                    <li class="footer_title">წესები და პირობები</li>
+                    <li class="footer_component">წესები და პირობები</li>
+                    <li class="footer_component">საგარანტიო პირობები</li>
+                    <li class="footer_component">მიწოდების წესები და პირობები</li>
+                    <li class="footer_component">პერსონალურ მონაცემთა პოლიტიკა</li>
+                </ul>
+                
+                <ul>
+                    <li class="footer_title">გამოგვყევი</li>
+                    <li class="footer_component"><i class="fa-brands fa-facebook"></i> Facebook</li>
+                    <li class="footer_component"><i class="fa-brands fa-square-instagram"></i>Instagram</li>
+                    <li class="footer_component"><i class="fa-brands fa-tiktok"></i>TikTok</li>
+                    <li class="footer_component"><i class="fa-brands fa-youtube"></i>Youtube</li>
+                </ul>
+                
+                <ul>
+                <li class="footer_title">დაგვიკავშირდი</li>
+                <li class="footer_component"><i class="fa-solid fa-envelope"></i>retail@alta.ge</li>
+                <li class="footer_component"><i class="fa-solid fa-phone"></i>(032) 238 00 38</li>
+                <li class="footer_component"><i class="fa-solid fa-phone"></i>*3838</li>
+                <li class="footer_component"><i class="fa-solid fa-location-dot"></i>მაღაზიები</li>
+            </ul>
+
+        </div>
+        
+        <div class="censored">
+            <p>საავტორო უფლებები © 2025 Alta.ge. ყველა უფლება დაცულია.</p>
+        </div>
+
+        <div class="footer_contnet_responsive">
+
+                <div class="left_footer">
+                <ul>
+                    <li class="footer_title">ჩვენ შესახებ</li>
+                    <li class="footer_component">ვინ ვართ ჩვენ</li>
+                    <li class="footer_component">ონლაინ ყიდვის ინსტრუქცია</li>
+                    <li class="footer_component">ონლაინ გადახდის მეთოდები</li>
+                    <li class="footer_component">სერვის ცენტრების მისამართები</li>
+                </ul>
+                
+                <ul>
+                    <li class="footer_title">გამოგვყევი</li>
+                    <li class="footer_component"><i class="fa-brands fa-facebook"></i> Facebook</li>
+                    <li class="footer_component"><i class="fa-brands fa-square-instagram"></i>Instagram</li>
+                    <li class="footer_component"><i class="fa-brands fa-tiktok"></i>TikTok</li>
+                    <li class="footer_component"><i class="fa-brands fa-youtube"></i>Youtube</li>
+                </ul>
+                </div>
+
+                <div class="right_footer">
+
+                <ul>
+                    <li class="footer_title">წესები და პირობები</li>
+                    <li class="footer_component">წესები და პირობები</li>
+                    <li class="footer_component">საგარანტიო პირობები</li>
+                    <li class="footer_component">მიწოდების წესები და პირობები</li>
+                    <li class="footer_component">პერსონალურ მონაცემთა პოლიტიკა</li>
+                </ul>
+                
+                <ul>
+                <li class="footer_title">დაგვიკავშირდი</li>
+                <li class="footer_component"><i class="fa-solid fa-envelope"></i>retail@alta.ge</li>
+                <li class="footer_component"><i class="fa-solid fa-phone"></i>(032) 238 00 38</li>
+                <li class="footer_component"><i class="fa-solid fa-phone"></i>*3838</li>
+                <li class="footer_component"><i class="fa-solid fa-location-dot"></i>მაღაზიები</li>
+            </ul>
+            </div>
+
+        </div>
+
+        <div class="comerce">
+            <img src="https://e360.ge/icons/main-logo-2.svg" alt="360">
+        </div>
+        
+        <div class="censored_responsive">
+            <p>საავტორო უფლებები © 2025 Alta.ge. ყველა უფლება დაცულია.</p>
+        </div>
+
+    </footer>
+</body>
+</html>

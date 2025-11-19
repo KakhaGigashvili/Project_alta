@@ -4,6 +4,21 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+*::-webkit-scrollbar {
+    height: 3px;
+    width: 3px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #7f56d9;
+    border-radius: 6px;
+    width: 1px;
+}
+
 header{
     margin-bottom: 28px;
 }
@@ -454,6 +469,10 @@ header{
     height: 435px;
 }
 
+.card-img-top{
+    cursor: pointer;
+}
+
 .online_items{
     display: flex;
     justify-content: space-around;
@@ -483,6 +502,13 @@ header{
     line-height: 20px;
     height: 40px;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.products{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
 }
 
 .card-text{

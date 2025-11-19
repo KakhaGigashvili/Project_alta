@@ -64,6 +64,14 @@
 
 .tv_audio_bottom{
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tv_audio_bottom_last{
+    margin-top: 20px;
 }
 
 /* navigadion div */
@@ -113,14 +121,14 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    overflow: hidden;
+    overflow-x: hidden;
     height: 0;
 }
 
 #tv_dawn:checked ~ .navigation_paragraph{
-    height: 165px;
-    overflow: visible;
+    height: 370px;
     transition: 0.3s ease-in-out;
+    overflow-x: scroll;
 }
 
 #tv_dawn:checked + .tv_drop_dawn .fa-solid{
@@ -173,7 +181,7 @@
 /* footer */
 
 footer{
-    margin-top: 105px;
+    margin-top: 70px;
 }
 
 @media screen and (max-width:1025px){
