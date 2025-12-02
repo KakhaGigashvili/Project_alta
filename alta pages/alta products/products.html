@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -16,7 +19,32 @@
             <div class="header_container">
                 <div class="center_header">
                     <div class="burger_responsive">
-                        <i class="fa-solid fa-bars"></i>
+                        <label for="burger" class="burger_show">
+                        <input type="checkbox"  id="burger" />
+                        <i class="fa-solid fa-bars"></i> 
+
+                        <ul class="burger_list">
+                                <div class="burger_categories">
+                                    <h5>კატეგორიები</h5>
+                                    <div class="close_burger"><i class="fa-solid fa-xmark"></i></div>
+                                </div>
+                                <li><img src="https://alta-static.lemon.do/Alta/af9ddfa6-f2b4-47c0-90b5-3beb941e359f4dab6370-253e-44c9-a284-904bf567c006.png" alt="phone">მობილური ტელეფონები და აქსესუარები</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/0200aaa7-1022-426c-8fa4-99ac90e696d9c8e60e41-cb64-415d-ac7c-410eb301af11.png" alt="laptop">კომპიუტერული ტექნიკა და აქსესუარები</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/53002bcd-9e09-43df-904d-6a93dc461b9208997ee7-b3dc-4c09-a122-168704ddc818.png" alt="tv">ტელევიზორები და აუდიო სისტემები</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/381b2b36-b8d2-47dd-a0cc-b7143247714e64de4278-3b69-425e-8ef5-7b9818d33683.png" alt="gaming">გეიმინგი</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/e3c6c645-dfb6-4f62-ade7-748ad23ced9dfad2623e-8f09-4722-9e05-4ab7f72ce26f.png" alt="vid">ფოტო და ვიდეო</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/a7c1c0df-b99b-4c04-a1b9-a5f98a7fde54ac9dd154-10bc-4503-985a-b11ccc627136.png" alt="wash">მსხვილი საყოფაცხოვრებო ტექნიკა</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/1d975f71-eda7-4e3b-921e-6113016750f5bf3f68da-e773-4067-8559-8478f08d4aca.png" alt="equipment">წვრილი საოჯახო ტექნიკა</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/add3093f-e9ba-480f-b35e-1dccb56d6f7d7ba9c779-bcc6-4328-b380-add955cda1f7.png" alt="garden">სახლის და ეზოს მოვლა</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/8280594c-fc31-43d0-af7d-c420c2446b8e0a844b9c-1235-4596-9448-f2ed3c980670.png" alt="fen">თავის მოვლა</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/518d6516-998c-4b32-92c9-d0ebe59bd1f4f4c9b39e-c837-4376-9213-a9fe0d27031e.png" alt="smart house">ჭკვიანი სახლი</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/388c14c7-9d60-4fc9-a89b-2560bfe82c854f3679c3-247a-4275-a8b8-58ad810827ee.png" alt="children">მშობელი და ბავშვი</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/3b4606e0-dec8-4e62-845c-a9055a5f8717d7e7f53e-8a94-40f2-b97f-3dc1769c5370.png" alt="car">მანქანის ხელსაწყოები და აქსესუარები</li>
+                                <li><img src="https://imgstore.alta.ge/images/cef44bfb-f488-4db1-9d11-d7b4b3f1047569d43e69-2632-46e7-bd78-320fbed98f17.png" alt="transport">ელექტრო ტრანსპორტი</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/46a1280d-da70-4d53-94a4-e942f9832e0f781b0d04-1152-4af8-a233-dde3ba0989a7.png" alt="servises">სერვისები</li>
+                            </ul>
+
+                        </label>
                     </div>
                     <a href="../../alta.html">
                     <img src="https://alta.ge/images/logo.svg" alt="alta logo">
@@ -29,20 +57,20 @@
                         <div class="drop_dawn_categories">
                             <div class="hidden_div"></div>
                             <ul>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2Faf9ddfa6-f2b4-47c0-90b5-3beb941e359f4dab6370-253e-44c9-a284-904bf567c006.png&w=1920&q=75" alt="phone">მობილური ტელეფონები და აქსესუარები</li>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F0200aaa7-1022-426c-8fa4-99ac90e696d9c8e60e41-cb64-415d-ac7c-410eb301af11.png&w=1920&q=75" alt="laptop">კომპიუტერული ტექნიკა და აქსესუარები</li>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F53002bcd-9e09-43df-904d-6a93dc461b9208997ee7-b3dc-4c09-a122-168704ddc818.png&w=1920&q=75" alt="tv">ტელევიზორები და აუდიო სისტემები</li>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F381b2b36-b8d2-47dd-a0cc-b7143247714e64de4278-3b69-425e-8ef5-7b9818d33683.png&w=1920&q=75" alt="gaming">გეიმინგი</li>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2Fe3c6c645-dfb6-4f62-ade7-748ad23ced9dfad2623e-8f09-4722-9e05-4ab7f72ce26f.png&w=1920&q=75" alt="vid">ფოტო და ვიდეო</li>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2Fa7c1c0df-b99b-4c04-a1b9-a5f98a7fde54ac9dd154-10bc-4503-985a-b11ccc627136.png&w=1920&q=75" alt="wash">მსხვილი საყოფაცხოვრებო ტექნიკა</li>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F1d975f71-eda7-4e3b-921e-6113016750f5bf3f68da-e773-4067-8559-8478f08d4aca.png&w=1920&q=75" alt="equipment">წვრილი საოჯახო ტექნიკა</li>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2Fadd3093f-e9ba-480f-b35e-1dccb56d6f7d7ba9c779-bcc6-4328-b380-add955cda1f7.png&w=1920&q=75" alt="garden">სახლის და ეზოს მოვლა</li>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F8280594c-fc31-43d0-af7d-c420c2446b8e0a844b9c-1235-4596-9448-f2ed3c980670.png&w=1920&q=75" alt="fen">თავის მოვლა</li>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F518d6516-998c-4b32-92c9-d0ebe59bd1f4f4c9b39e-c837-4376-9213-a9fe0d27031e.png&w=1920&q=75" alt="smart house">ჭკვიანი სახლი</li>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F388c14c7-9d60-4fc9-a89b-2560bfe82c854f3679c3-247a-4275-a8b8-58ad810827ee.png&w=1920&q=75" alt="children">მშობელი და ბავშვი</li>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F3b4606e0-dec8-4e62-845c-a9055a5f8717d7e7f53e-8a94-40f2-b97f-3dc1769c5370.png&w=1920&q=75" alt="car">მანქანის ხელსაწყოები და აქსესუარები</li>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Fimgstore.alta.ge%2Fimages%2Fcef44bfb-f488-4db1-9d11-d7b4b3f1047569d43e69-2632-46e7-bd78-320fbed98f17.png&w=1920&q=75" alt="transport">ელექტრო ტრანსპორტი</li>
-                                <li><img src="https://alta.ge/_next/image?url=https%3A%2F%2Falta-static.lemon.do%2FAlta%2F46a1280d-da70-4d53-94a4-e942f9832e0f781b0d04-1152-4af8-a233-dde3ba0989a7.png&w=1920&q=75" alt="servises">სერვისები</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/af9ddfa6-f2b4-47c0-90b5-3beb941e359f4dab6370-253e-44c9-a284-904bf567c006.png" alt="phone">მობილური ტელეფონები და აქსესუარები</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/0200aaa7-1022-426c-8fa4-99ac90e696d9c8e60e41-cb64-415d-ac7c-410eb301af11.png" alt="laptop">კომპიუტერული ტექნიკა და აქსესუარები</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/53002bcd-9e09-43df-904d-6a93dc461b9208997ee7-b3dc-4c09-a122-168704ddc818.png" alt="tv">ტელევიზორები და აუდიო სისტემები</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/381b2b36-b8d2-47dd-a0cc-b7143247714e64de4278-3b69-425e-8ef5-7b9818d33683.png" alt="gaming">გეიმინგი</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/e3c6c645-dfb6-4f62-ade7-748ad23ced9dfad2623e-8f09-4722-9e05-4ab7f72ce26f.png" alt="vid">ფოტო და ვიდეო</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/a7c1c0df-b99b-4c04-a1b9-a5f98a7fde54ac9dd154-10bc-4503-985a-b11ccc627136.png" alt="wash">მსხვილი საყოფაცხოვრებო ტექნიკა</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/1d975f71-eda7-4e3b-921e-6113016750f5bf3f68da-e773-4067-8559-8478f08d4aca.png" alt="equipment">წვრილი საოჯახო ტექნიკა</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/add3093f-e9ba-480f-b35e-1dccb56d6f7d7ba9c779-bcc6-4328-b380-add955cda1f7.png" alt="garden">სახლის და ეზოს მოვლა</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/8280594c-fc31-43d0-af7d-c420c2446b8e0a844b9c-1235-4596-9448-f2ed3c980670.png" alt="fen">თავის მოვლა</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/518d6516-998c-4b32-92c9-d0ebe59bd1f4f4c9b39e-c837-4376-9213-a9fe0d27031e.png" alt="smart house">ჭკვიანი სახლი</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/388c14c7-9d60-4fc9-a89b-2560bfe82c854f3679c3-247a-4275-a8b8-58ad810827ee.png" alt="children">მშობელი და ბავშვი</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/3b4606e0-dec8-4e62-845c-a9055a5f8717d7e7f53e-8a94-40f2-b97f-3dc1769c5370.png" alt="car">მანქანის ხელსაწყოები და აქსესუარები</li>
+                                <li><img src="https://imgstore.alta.ge/images/cef44bfb-f488-4db1-9d11-d7b4b3f1047569d43e69-2632-46e7-bd78-320fbed98f17.png" alt="transport">ელექტრო ტრანსპორტი</li>
+                                <li><img src="https://alta-static.lemon.do/Alta/46a1280d-da70-4d53-94a4-e942f9832e0f781b0d04-1152-4af8-a233-dde3ba0989a7.png" alt="servises">სერვისები</li>
                             </ul>
                         </div>
                     </div>
@@ -157,9 +185,9 @@
             <div class="bottom_center_header">
                 <div class="left_bottom_container"><strong> <i class="fa-solid fa-phone-volume"></i> *3838/(032) 238-00-38</strong></div>
                     <div class="right_bottom_container">
-                        <div>ბლოგი</div>
-                        <div>მაღაზიები</div>
-                        <div>ყველა აქცია</div>
+                        <div><a href="https://alta.ge/blog">ბლოგი</a></div>
+                        <div><a href="https://alta.ge/branches">მაღაზიები</a></div>
+                        <div><a href="https://alta.ge/promotions">ყველა აქცია</a></div>
                     </div>
             </div>
         </div>
@@ -188,13 +216,13 @@
                 <div class="product_fav">
                     <i class="fa-regular fa-heart"></i>
                 </div>
-                    <img src="https://alta.ge/_next/image?url=https%3A%2F%2Fimgstore.alta.ge%2Fimages%2F5fd9e1ae-81bf-40b9-b19d-69be044ac8c1_Thumb.jpeg&w=1920&q=100" class="bordered" alt="beko small">
-                    <img src="https://alta.ge/_next/image?url=https%3A%2F%2Fimgstore.alta.ge%2Fimages%2Fe9166aca-0f2d-4ca8-8420-1144daf55d53_Thumb.jpeg&w=1920&q=100" alt="beko open">
+                    <img src="https://imgstore.alta.ge/images/5fd9e1ae-81bf-40b9-b19d-69be044ac8c1_Thumb.jpeg" class="bordered" alt="beko small">
+                    <img src="https://imgstore.alta.ge/images/e9166aca-0f2d-4ca8-8420-1144daf55d53_Thumb.jpeg" alt="beko open">
                 </span>
 
                 <div class="center_img">
                     <img alt="gift badge" class="sale" src="https://imgstore.alta.ge/images/sale_icon.svg">
-                    <img src="https://alta.ge/_next/image?url=https%3A%2F%2Fimgstore.alta.ge%2Fimages%2F5fd9e1ae-81bf-40b9-b19d-69be044ac8c1_Thumb.jpeg&w=1920&q=100" alt="beko">
+                    <img src="https://imgstore.alta.ge/images/5fd9e1ae-81bf-40b9-b19d-69be044ac8c1_Thumb.jpeg" alt="beko">
                 </div>
 
                 <div class="product_detal_head">
@@ -222,12 +250,12 @@
                             <div class="price_product">
                                 <div>
                                     <p><strong>929₾</strong></p>
-                                    <p><strong>1199₾</strong></p>
+                                    <p><span class="real_price_product"><img src="https://alta.ge/icons/line-through-red.svg" alt="line">1199₾</span></p>
                                 </div>
                                 <button>ყიდვა</button>
                             </div>
 
-                            <div class="bottom_button">
+                            <div class="product_bottom_button">
                                 <button> <i class="fa-solid fa-cart-shopping"></i> დამატება</button>
                                 <button> <i class="fa-solid fa-left-right"></i> შედარება</button>
                             </div>
@@ -449,6 +477,163 @@
             <label for="detals" class="more_button">
                  <i class="fa-solid fa-angle-down"></i>
             </label>
+        </div>
+
+        <div class="only_online">
+            <h4 class="bottom_title"><strong>მსგავსი</strong></h4>
+
+            <div class="online_items">
+
+                <div class="card" >
+                    <img alt="gift badge" class="sale" src="https://imgstore.alta.ge/images/online_icon.svg">
+                    <a href="./alta pages/alta products/products.html" class="products">
+                        <img src="https://imgstore.alta.ge/images/400/152/152837_5489_1.webp" class="card-img-top" alt="beko">
+                    </a>
+                    <div class="right_btn">
+                        <div>
+                            <i class="fa-solid fa-left-right"></i>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <a href="./alta pages/alta products/products.html" class="products">
+                            <h5 class="card-title">Beko HSM 20591 S b300</h5>
+                        </a>
+                        <div class="price">
+                            <span class="card-text">949₾</span>
+                            <span class="real_price"><img src="https://alta.ge/icons/line-through-red.svg" alt="line">1199₾</span>
+                        </div>
+                        <div class="bottom_button">
+                            <div class="left_cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <button><a href="./alta pages/alta products/products.html" class="btn btn-primary">ყიდვა</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" >
+                    <img alt="gift badge" class="sale" src="https://imgstore.alta.ge/images/online_icon.svg">
+                    <img src="https://imgstore.alta.ge/images/400/152/152813_7561_1.webp" class="card-img-top" alt="beko 2">
+                    <div class="right_btn">
+                        <div>
+                            <i class="fa-solid fa-left-right"></i>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Beko B 1752 HCA b100</h5>
+                        <div class="price">
+                            <span class="card-text">599₾</span>
+                            <span class="real_price"><img src="https://alta.ge/icons/line-through-red.svg" alt="line">999₾</span>
+                        </div>
+                        <div class="bottom_button">
+                            <div class="left_cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <button><a href="#" class="btn btn-primary">ყიდვა</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" >
+                    <img alt="gift badge" class="sale" src="https://imgstore.alta.ge/images/online_icon.svg">
+                    <img src="https://imgstore.alta.ge/images/400/152/152838_7486_3.webp" class="card-img-top" alt="beko 3">
+                    <div class="right_btn">
+                        <div>
+                            <i class="fa-solid fa-left-right"></i>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Beko HSM 30081 b300</h5>
+                        <div class="price">
+                            <span class="card-text">1149₾</span>
+                            <span class="real_price"><img src="https://alta.ge/icons/line-through-red.svg" alt="line">1499₾</span>
+                        </div>
+                        <div class="bottom_button">
+                            <div class="left_cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <button><a href="#" class="btn btn-primary">ყიდვა</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" >
+                    <img alt="gift badge" class="sale" src="https://imgstore.alta.ge/images/online_icon.svg">
+                    <img src="https://imgstore.alta.ge/images/400/152/152816_3552_1.webp" class="card-img-top" alt="beko 4">
+                    <div class="right_btn">
+                        <div>
+                            <i class="fa-solid fa-left-right"></i>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Beko B3DRCNK402HXBR b300</h5>
+                        <div class="price">
+                            <span class="card-text">2399₾</span>
+                        </div>
+                            <div class="bottom_button">
+                            <div class="left_cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <button><a href="#" class="btn btn-primary">ყიდვა</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" >
+                    <img alt="gift badge" class="sale" src="https://imgstore.alta.ge/images/online_icon.svg">
+                    <img src="https://imgstore.alta.ge/images/400/152/152831_3507_1.webp" class="card-img-top" alt="beko 5">
+                    <div class="right_btn">
+                        <div>
+                            <i class="fa-solid fa-left-right"></i>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Beko GN 163140 ZGBN bPRO 500</h5>
+                        <div class="price">
+                            <span class="card-text">3199₾</span>
+                            <span class="real_price"><img src="https://alta.ge/icons/line-through-red.svg" alt="line">4399₾</span>
+                        </div>
+                        <div class="bottom_button">
+                            <div class="left_cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <button><a href="#" class="btn btn-primary">ყიდვა</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" >
+                    <img alt="gift badge" class="sale" src="https://imgstore.alta.ge/images/online_icon.svg">
+                        <img src="https://imgstore.alta.ge/images/400/152/152834_9498_1.webp" class="card-img-top" alt="beko">
+                    <div class="right_btn">
+                        <div>
+                            <i class="fa-solid fa-left-right"></i>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Beko GNO5322XPN b300</h5>
+                        <div class="price">
+                            <span class="card-text">2299₾</span>
+                            <span class="real_price"><img src="https://alta.ge/icons/line-through-red.svg" alt="line">2799₾</span>
+                        </div>
+                        <div class="bottom_button">
+                            <div class="left_cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <button><a href="#" class="btn btn-primary">ყიდვა</a></button>
+                        </div>
+                    </div>
+                </div>
+
+        
+            </div>
+
         </div>
     
     </div> <!-- main -->
